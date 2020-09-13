@@ -1,4 +1,4 @@
-<h1 align="center" style="border-bottom: none;">trycatch-wrapper</h1>
+<h1 align="center" style="border-bottom: none;">@almank/try-catch</h1>
 <h3 align="center">Try/Catch made simple</h3>
 
 <p align="center">
@@ -8,7 +8,7 @@
   <a href="#development">Development</a>
 </p>
 
-**trycatch-wrapper** provides helpers to try catch your functions and promises.
+**@almank/try-catch** provides helpers to try catch your functions and promises.
 
 ## Install
 
@@ -26,7 +26,7 @@ yarn add trycatch-wrapper
 
 ## Overview
 ```js
-import { tryCatch, tryCatchPromise } from "trycatch-wrapper";
+import { tryCatch, tryCatchPromise } from "@almank/try-catch";
 
 const [result, error] = tryCatch(method, ...args);
 
@@ -38,7 +38,7 @@ const [result, error] = await tryCatchPromise(method, ...args);
 ### tryCatch
 
 ```js
-import { tryCatch } from "trycatch-wrapper";
+import { tryCatch } from "@almank/try-catch";
 
 const someFunction = name => {
   if (name === "Christoffer") {
@@ -62,7 +62,7 @@ console.log(error); // null
 ### tryCatchPromise
 
 ```js
-import { tryCatchPromise } from "trycatch-wrapper";
+import { tryCatchPromise } from "@almank/try-catch";
 
 const getResult = fail =>
   new Promise((resolve, reject) => {

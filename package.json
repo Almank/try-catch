@@ -1,5 +1,5 @@
 {
-  "name": "trycatch-wrapper",
+  "name": "@almank/try-catch",
   "version": "1.0.0",
   "description": "Try/Catch made simple.",
   "author": "Christoffer Almankaas <chrisa.a87@gmail.com>",

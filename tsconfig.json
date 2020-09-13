@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "moduleResolution": "node",
+      "declaration": true,
+      "declarationDir": "dist",
+      "allowJs": true,
+      "noEmit": true,
+      "strict": true,
+      "isolatedModules": true,
+      "esModuleInterop": true
+    },
+    "include": ["src"],
+    "typedocOptions": {
+      "mode": "library",
+      "out": "docs",
+      "readme": "none"
+    },
+  }

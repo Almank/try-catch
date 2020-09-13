@@ -1,12 +1,16 @@
 {
   "name": "@almank/try-catch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Try/Catch made simple.",
   "author": "Christoffer Almankaas <chrisa.a87@gmail.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "url": "https://github.com/Almank/try-catch"
+  },
+  "homepage": "https://github.com/Almank/try-catch",
   "keywords": [
     "library",
     "try/catch",

@@ -15,13 +15,13 @@
 Using npm
 
 ```
-npm install trycatch-wrapper
+npm install @almank/try-catch
 ```
 
 Using yarn
 
 ```
-yarn add trycatch-wrapper
+yarn add @almank/try-catch
 ```
 
 ## Overview
